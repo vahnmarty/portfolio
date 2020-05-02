@@ -1,0 +1,154 @@
+
+.theme-primary{
+	background-color: #263165;
+}
+
+.theme-secondary{
+	background-color: #45CBF3;
+}
+
+.text-secondary{
+	color: #41b883  !important;
+}
+
+.theme-neutral{
+	background-color: #f3f1f1;
+}
+
+.home-banner{
+	background: url(home-bg-top.svg) no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	padding-bottom: 150px;
+	margin-bottom: -60px;
+	min-height: 100vh;
+	padding-top: 5em;
+	color: #fff;
+}
+
+.banner-title{
+	font-size: 4em;
+	margin-bottom: 0;
+}
+.img-avatar{
+	width: 100%;
+	border-radius: 50%;
+}
+
+.highlight{
+	font-size: 1em;
+	padding: 10px 30px;
+	border-radius: 1em;
+	background: #F97111;
+	color: #f3f1f1;
+	margin-bottom: 20px;
+}
+
+#socmed a{
+	font-size: 1.25em;
+}
+
+.skill-item{
+	background: #fff;
+	padding: 15px;
+	border-radius: 50%;
+	display: block;
+}
+
+.skill-item img{
+	width: 70px;
+	height: 70px;
+}
+
+.feature{
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+	padding: 1em 1em;
+	margin-bottom: 2em;
+}
+
+.feature-banner{
+	min-height: 175px;
+	max-height: 175px;
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+
+
+.feature-img{
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.feature-title{
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+}
+
+.banner-contact{
+	margin-bottom: 1.8em;
+}
+
+
+.contact-item{
+	margin-right: 1em;
+}
+.contact-item a{
+	color: #fff;
+}
+
+.btn-xxs{
+	padding: 1px 3px;
+	font-size: .7em;
+}
+
+.text-orange{
+	color: #F97111;
+}
+
+@media (max-width: 480px) { 
+	#socmed a span{
+		display: none;
+	}
+
+	.banner-title{
+		font-size: 1.5em;
+		margin-bottom: .7em;
+	}
+	.home-banner{
+		background-size: cover;
+		padding-top: 3em;
+	}
+
+	.highlight{
+		display: inline-block;
+		margin-bottom: 10px;
+		padding: 5px 15px;
+	}
+
+	.skill-item {
+		padding: 7px;
+		margin-bottom: 5px;
+	}
+
+	.skill-item img{
+		width: 30px;
+		height: 30px;
+	}
+
+	.contact-item{
+		display: block;
+		font-size: .9em;
+	}
+
+	.contact-item i{
+		width: 30px;
+		text-align: center;
+	}
+}
